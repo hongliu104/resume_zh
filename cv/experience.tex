@@ -1,11 +1,11 @@
 %-------------------------------------------------------------------------------
-%	SECTION TITLE
+%    SECTION TITLE
 %-------------------------------------------------------------------------------
 \cvsection{工作经历}
 
 
 %-------------------------------------------------------------------------------
-%	CONTENT
+%    CONTENT
 %-------------------------------------------------------------------------------
 \begin{cventries}
 
@@ -14,12 +14,13 @@
     {深度学习算法\&研发工程师} % Job title
     {北京比特大陆科技有限公司} % Organization
     {北京，成都} % Location
-    {2016.11 - 至今} % Date(s)
+    {2016.10 - 至今} % Date(s)
     {
       \begin{itemize}[parsep=0.2ex] % Description(s) of tasks/responsibilities
-        \item \descriptionstyle{带领7人团队研发168X系列深度学习加速芯片的上层软件SDK(提供Python/C++ api), 开源地址: https://github.com/sophon-ai-algo/sophon-inference;}
-        \item \descriptionstyle{对CV领域各主流深度学习框架下的主流的分类/检测模型, 在SC5H(17.6T INT8算力，2.2T FP32算力)上进行精度速度测试;}
+        \item \descriptionstyle{带领7人团队研发基于深度学习加速芯片-BM1684的上层软件SDK(提供Python/C++ api), 集成了bmlib/bmdecoder/bmcv/bmruntime，支持1684全系列产品：SC5/SM5/SE5。开源地址: https://github.com/sophon-ai-algo/sophon-inference;}
+        \item \descriptionstyle{独立完成对CV领域的TensorFlow/Pytorch/MXNet/Caffe的主流的分类/检测模型(共计122个), 在SC5H(17.6T INT8算力，2.2T FP32算力)上进行精度(Top5/mAP)速度的全流程QA的测试代码开发、部署、结果收集，发现并推动修复5个模块的17个bug;}
         \item \descriptionstyle{儿童故事书OCR，“小萝卜”儿童陪伴机器人自动读取故事书上文字(EAST + CRNN)，并朗读出来(调用外部API);}
+        \item \descriptionstyle{优选开源算法移植，开源地址：https://gitee.com/hong\_liu/sophon-algorithm/tree/master/apps/wav2lip;}
       \end{itemize}
     }
 
@@ -33,7 +34,7 @@
       \begin{itemize}[parsep=0.2ex] % Description(s) of tasks/responsibilities
         \item \descriptionstyle{凤巢query-ads相关性模型，从LSTM到CNN+Fine-tuning, AUC提升4.1到79.2，预测速率从12ms/sample提升到0.2ms/sample;}
         \item \descriptionstyle{百度金融风控模型，基于百度用户画像、搜索、贴吧、糯米、钱包等10万+维度特征数据，GINI为62(AUC=81, 比LR提升6);}
-        \item \descriptionstyle{百度外卖出餐时间预测，预测用户下单到商户做好菜品的时间，以优化外卖其实的调度方案，平均误差由11分钟降到7分钟;}
+        \item \descriptionstyle{百度外卖出餐时间预测，预测用户下单到商户做好菜品的时间，以优化外卖骑士的调度方案，平均误差由11分钟降到7分钟;}
         \item \descriptionstyle{百度外卖下单概率预测，在不明显减少总订单量的前提下有效减少优惠补贴总额，总流水减少1.87\%时，补贴额度减少9.82\%;}
       \end{itemize}
     }
